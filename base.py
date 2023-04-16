@@ -48,7 +48,8 @@ print('Date 3 years before yesterday\'s date: ', three_years_ago_date)
 # Begin and end dates
 end_dates = [one_week_ago_date, one_month_ago_date, three_months_ago_date, one_year_ago_date, three_years_ago_date]
 
-stocks = nl.getStocks(choice)
+# stocks = nl.getStocks(choice)
+stocks = nl.getStocksOldWay(choice)
 
 for i in range(0,5):
     begin_date = end_dates[i];
