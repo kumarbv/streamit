@@ -6,3 +6,4 @@ pyportfolioopt
 fastquant
 nseinfopackage
 plotly
+nseLibrary
