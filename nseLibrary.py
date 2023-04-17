@@ -699,169 +699,169 @@ NIFTY_MIDCAP150_QUALITY_50 = ['IEX.NS', 'NAM-INDIA.NS', 'ALKYLAMINE.NS', 'ISEC.N
                               'DEEPAKNTR.NS', 'APLAPOLLO.NS', 'AUBANK.NS', 'GLAXO.NS']
 
 
-def getStocks(Group):
-    match Group:
-        case 'NIFTY_50':
-            return NIFTY_50
-        case 'NIFTY_AUTO':
-            return NIFTY_AUTO
-        case 'NIFTY_DIVIDEND_OPPORTUNITIES_50':
-            return NIFTY_DIVIDEND_OPPORTUNITIES_50
-        case 'NIFTY_PSE':
-            return NIFTY_PSE
-        case 'NIFTY_INDIA_MANUFACTURING':
-            return NIFTY_INDIA_MANUFACTURING
-        case 'NIFTY_GROWTH_SECTORS_15':
-            return NIFTY_GROWTH_SECTORS_15
-        case 'NIFTY100_LIQUID_15':
-            return NIFTY100_LIQUID_15
-        case 'NIFTY50_EQUAL_WEIGHT':
-            return NIFTY50_EQUAL_WEIGHT
-        case 'NNIFTY_PSU_BANK':
-            return NIFTY_PSU_BANK
-        case 'NIFTY_ALPHA_LOW_VOLATILITY_30':
-            return NIFTY_ALPHA_LOW_VOLATILITY_30
-        case 'NIFTY_OIL_AND_GAS':
-            return NIFTY_OIL_AND_GAS
-        case 'NIFTY_MIDCAP_50':
-            return NIFTY_MIDCAP_50
-        case 'NIFTY_ENERGY':
-            return NIFTY_ENERGY
-        case 'NIFTY_INDIA_CONSUMPTION':
-            return NIFTY_INDIA_CONSUMPTION
-        case 'NIFTY_SMALLCAP_250':
-            return NIFTY_SMALLCAP_250
-        case 'NIFTY_SMALLCAP_50':
-            return NIFTY_SMALLCAP_50
-        case 'NIFTY_MICROCAP_250':
-            return NIFTY_MICROCAP_250
-        case 'NIFTY_METAL':
-            return NIFTY_METAL
-        case 'NIFTY100_QUALITY_30':
-            return NIFTY100_QUALITY_30
-        case 'NIFTY50_VALUE_20':
-            return NIFTY50_VALUE_20
-        case 'NIFTY_LARGEMIDCAP_250':
-            return NIFTY_LARGEMIDCAP_250
-        case 'NIFTY_MIDCAP_150':
-            return NIFTY_MIDCAP_150
-        case 'NIFTY_MNC':
-            return NIFTY_MNC
-        case 'NIFTY_100':
-            return NIFTY_100
-        case 'NIFTY_COMMODITIES':
-            return NIFTY_COMMODITIES
-        case 'NIFTY100_ESG':
-            return NIFTY100_ESG
-        case 'NIFTY_MIDCAP_SELECT':
-            return NIFTY_MIDCAP_SELECT
-        case 'NIFTY_FMCG':
-            return NIFTY_FMCG
-        case 'NIFTY_PHARMA':
-            return NIFTY_PHARMA
-        case 'NIFTY_REALTY':
-            return NIFTY_REALTY
-        case 'NIFTY100_EQUAL_WEIGHT':
-            return NIFTY100_EQUAL_WEIGHT
-        case 'NIFTY_200':
-            return NIFTY_200
-        case 'NIFTY_BANK':
-            return NIFTY_BANK
-        case 'NIFTY_MIDCAP_LIQUID_15':
-            return NIFTY_MIDCAP_LIQUID_15
-        case 'NIFTY_CPSE':
-            return NIFTY_CPSE
-        case 'NIFTY_FINANCIAL_SERVICES':
-            return NIFTY_FINANCIAL_SERVICES
-        case 'NIFTY_MIDSMALLCAP_400':
-            return NIFTY_MIDSMALLCAP_400
-        case 'NIFTY_SMALLCAP_100':
-            return NIFTY_SMALLCAP_100
-        case 'NIFTY_INDIA_DIGITAL':
-            return NIFTY_INDIA_DIGITAL
-        case 'NIFTY_INFRASTRUCTURE':
-            return NIFTY_INFRASTRUCTURE
-        case 'NIFTY_ALPHA_50':
-            return NIFTY_ALPHA_50
-        case 'NIFTY_SERVICES_SECTOR':
-            return NIFTY_SERVICES_SECTOR
-        case 'NIFTY_TOTAL_MARKET':
-            return NIFTY_TOTAL_MARKET
-        case 'NIFTY_NEXT_50':
-            return NIFTY_NEXT_50
-        case 'NIFTY_IT':
-            return NIFTY_IT
-        case 'NIFTY500_MULTICAP_50_25_25':
-            return NIFTY500_MULTICAP_50_25_25
-        case 'NIFTY_MEDIA':
-            return NIFTY_MEDIA
-        case 'NIFTY200_QUALITY_30':
-            return NIFTY200_QUALITY_30
-        case 'NIFTY_PRIVATE_BANK':
-            return NIFTY_PRIVATE_BANK
-        case 'NIFTY_FINANCIAL_SERVICES_25_50':
-            return NIFTY_FINANCIAL_SERVICES_25_50
-        case 'NIFTY_HEALTHCARE_INDEX':
-            return NIFTY_HEALTHCARE_INDEX
-        case 'NIFTY_MIDCAP_100':
-            return NIFTY_MIDCAP_100
-        case 'NIFTY200_MOMENTUM_30':
-            return NIFTY200_MOMENTUM_30
-        case 'NIFTY_MIDCAP150_QUALITY_50':
-            return NIFTY_MIDCAP150_QUALITY_50
+# def getStocks(Group):
+#     match Group:
+#         case 'NIFTY_50':
+#             return NIFTY_50
+#         case 'NIFTY_AUTO':
+#             return NIFTY_AUTO
+#         case 'NIFTY_DIVIDEND_OPPORTUNITIES_50':
+#             return NIFTY_DIVIDEND_OPPORTUNITIES_50
+#         case 'NIFTY_PSE':
+#             return NIFTY_PSE
+#         case 'NIFTY_INDIA_MANUFACTURING':
+#             return NIFTY_INDIA_MANUFACTURING
+#         case 'NIFTY_GROWTH_SECTORS_15':
+#             return NIFTY_GROWTH_SECTORS_15
+#         case 'NIFTY100_LIQUID_15':
+#             return NIFTY100_LIQUID_15
+#         case 'NIFTY50_EQUAL_WEIGHT':
+#             return NIFTY50_EQUAL_WEIGHT
+#         case 'NNIFTY_PSU_BANK':
+#             return NIFTY_PSU_BANK
+#         case 'NIFTY_ALPHA_LOW_VOLATILITY_30':
+#             return NIFTY_ALPHA_LOW_VOLATILITY_30
+#         case 'NIFTY_OIL_AND_GAS':
+#             return NIFTY_OIL_AND_GAS
+#         case 'NIFTY_MIDCAP_50':
+#             return NIFTY_MIDCAP_50
+#         case 'NIFTY_ENERGY':
+#             return NIFTY_ENERGY
+#         case 'NIFTY_INDIA_CONSUMPTION':
+#             return NIFTY_INDIA_CONSUMPTION
+#         case 'NIFTY_SMALLCAP_250':
+#             return NIFTY_SMALLCAP_250
+#         case 'NIFTY_SMALLCAP_50':
+#             return NIFTY_SMALLCAP_50
+#         case 'NIFTY_MICROCAP_250':
+#             return NIFTY_MICROCAP_250
+#         case 'NIFTY_METAL':
+#             return NIFTY_METAL
+#         case 'NIFTY100_QUALITY_30':
+#             return NIFTY100_QUALITY_30
+#         case 'NIFTY50_VALUE_20':
+#             return NIFTY50_VALUE_20
+#         case 'NIFTY_LARGEMIDCAP_250':
+#             return NIFTY_LARGEMIDCAP_250
+#         case 'NIFTY_MIDCAP_150':
+#             return NIFTY_MIDCAP_150
+#         case 'NIFTY_MNC':
+#             return NIFTY_MNC
+#         case 'NIFTY_100':
+#             return NIFTY_100
+#         case 'NIFTY_COMMODITIES':
+#             return NIFTY_COMMODITIES
+#         case 'NIFTY100_ESG':
+#             return NIFTY100_ESG
+#         case 'NIFTY_MIDCAP_SELECT':
+#             return NIFTY_MIDCAP_SELECT
+#         case 'NIFTY_FMCG':
+#             return NIFTY_FMCG
+#         case 'NIFTY_PHARMA':
+#             return NIFTY_PHARMA
+#         case 'NIFTY_REALTY':
+#             return NIFTY_REALTY
+#         case 'NIFTY100_EQUAL_WEIGHT':
+#             return NIFTY100_EQUAL_WEIGHT
+#         case 'NIFTY_200':
+#             return NIFTY_200
+#         case 'NIFTY_BANK':
+#             return NIFTY_BANK
+#         case 'NIFTY_MIDCAP_LIQUID_15':
+#             return NIFTY_MIDCAP_LIQUID_15
+#         case 'NIFTY_CPSE':
+#             return NIFTY_CPSE
+#         case 'NIFTY_FINANCIAL_SERVICES':
+#             return NIFTY_FINANCIAL_SERVICES
+#         case 'NIFTY_MIDSMALLCAP_400':
+#             return NIFTY_MIDSMALLCAP_400
+#         case 'NIFTY_SMALLCAP_100':
+#             return NIFTY_SMALLCAP_100
+#         case 'NIFTY_INDIA_DIGITAL':
+#             return NIFTY_INDIA_DIGITAL
+#         case 'NIFTY_INFRASTRUCTURE':
+#             return NIFTY_INFRASTRUCTURE
+#         case 'NIFTY_ALPHA_50':
+#             return NIFTY_ALPHA_50
+#         case 'NIFTY_SERVICES_SECTOR':
+#             return NIFTY_SERVICES_SECTOR
+#         case 'NIFTY_TOTAL_MARKET':
+#             return NIFTY_TOTAL_MARKET
+#         case 'NIFTY_NEXT_50':
+#             return NIFTY_NEXT_50
+#         case 'NIFTY_IT':
+#             return NIFTY_IT
+#         case 'NIFTY500_MULTICAP_50_25_25':
+#             return NIFTY500_MULTICAP_50_25_25
+#         case 'NIFTY_MEDIA':
+#             return NIFTY_MEDIA
+#         case 'NIFTY200_QUALITY_30':
+#             return NIFTY200_QUALITY_30
+#         case 'NIFTY_PRIVATE_BANK':
+#             return NIFTY_PRIVATE_BANK
+#         case 'NIFTY_FINANCIAL_SERVICES_25_50':
+#             return NIFTY_FINANCIAL_SERVICES_25_50
+#         case 'NIFTY_HEALTHCARE_INDEX':
+#             return NIFTY_HEALTHCARE_INDEX
+#         case 'NIFTY_MIDCAP_100':
+#             return NIFTY_MIDCAP_100
+#         case 'NIFTY200_MOMENTUM_30':
+#             return NIFTY200_MOMENTUM_30
+#         case 'NIFTY_MIDCAP150_QUALITY_50':
+#             return NIFTY_MIDCAP150_QUALITY_50
 
 def returnGroupList():
     return ['NIFTY_AUTO', 'NIFTY_DIVIDEND_OPPORTUNITIES_50', 'NIFTY_PSE', 'NIFTY_INDIA_MANUFACTURING',  'NIFTY_GROWTH_SECTORS_15',  'NIFTY100_LIQUID_15',  'NIFTY50_EQUAL_WEIGHT',  'NIFTY_PSU_BANK',  'NIFTY_OIL_AND_GAS',  'NIFTY_MIDCAP_50',  'NIFTY_ENERGY',  'NIFTY_SMALLCAP_250',  'NIFTY_SMALLCAP_50',  'NIFTY_MICROCAP_250',  'NIFTY_METAL',  'NIFTY100_QUALITY_30',  'NIFTY50_VALUE_20',  'NIFTY_LARGEMIDCAP_250',  'NIFTY_MIDCAP_150',  'NIFTY_100',  'NIFTY100_ESG',  'NIFTY_MIDCAP_SELECT',  'NIFTY_PHARMA',  'NIFTY_REALTY',  'NIFTY_200',  'NIFTY100_LOW_VOLATILITY_30',  'NIFTY_BANK',  'NIFTY_MIDCAP_LIQUID_15',  'NIFTY_CPSE',  'NIFTY_FINANCIAL_SERVICES',  'NIFTY_MIDSMALLCAP_400',  'NIFTY_SMALLCAP_100',  'NIFTY_INDIA_DIGITAL',  'NIFTY_INFRASTRUCTURE',  'NIFTY_ALPHA_50',  'NIFTY_SERVICES_SECTOR',  'NIFTY_50',  'NIFTY_TOTAL_MARKET',  'NIFTY_NEXT_50',  'NIFTY_IT',  'NIFTY500_MULTICAP_50_25_25',  'NIFTY_MEDIA',  'NIFTY_PRIVATE_BANK',  'NIFTY_FINANCIAL_SERVICES_25_50',  'NIFTY_HEALTHCARE_INDEX',  'NIFTY_MIDCAP_100',  'NIFTY200_MOMENTUM_30',  'NIFTY_MIDCAP150_QUALITY_50']
 
-# def getStocksOldWay(group):
-#     group_code = {
-#         'NIFTY_AUTO':'NIFTY_AUTO',
-#         'NIFTY_DIVIDEND_OPPORTUNITIES_50':'NIFTY_DIVIDEND_OPPORTUNITIES_50',
-#         'NIFTY_PSE':'NIFTY_PSE',
-#         'NIFTY_INDIA_MANUFACTURING':'NIFTY_INDIA_MANUFACTURING',
-#         'NIFTY_GROWTH_SECTORS_15':'NIFTY_GROWTH_SECTORS_15',
-#         'NIFTY100_LIQUID_15':'NIFTY100_LIQUID_15',
-#         'NIFTY50_EQUAL_WEIGHT':'NIFTY50_EQUAL_WEIGHT',
-#         'NIFTY_PSU_BANK':'NIFTY_PSU_BANK',
-#         'NIFTY_OIL_AND_GAS':'NIFTY_OIL_AND_GAS',
-#         'NIFTY_MIDCAP_50':'NIFTY_MIDCAP_50',
-#         'NIFTY_ENERGY':'NIFTY_ENERGY',
-#         'NIFTY_SMALLCAP_250':'NIFTY_SMALLCAP_250',
-#         'NIFTY_SMALLCAP_50':'NIFTY_SMALLCAP_50',
-#         'NIFTY_MICROCAP_250':'NIFTY_MICROCAP_250',
-#         'NIFTY_METAL':'NIFTY_METAL',
-#         'NIFTY100_QUALITY_30':'NIFTY100_QUALITY_30',
-#         'NIFTY50_VALUE_20':'NIFTY50_VALUE_20',
-#         'NIFTY_LARGEMIDCAP_250':'NIFTY_LARGEMIDCAP_250',
-#         'NIFTY_MIDCAP_150':'NIFTY_MIDCAP_150',
-#         'NIFTY_100':'NIFTY_100',
-#         'NIFTY100_ESG':'NIFTY100_ESG',
-#         'NIFTY_MIDCAP_SELECT':'NIFTY_MIDCAP_SELECT',
-#         'NIFTY_PHARMA':'NIFTY_PHARMA',
-#         'NIFTY_REALTY':'NIFTY_REALTY',
-#         'NIFTY_200':'NIFTY_200',
-#         'NIFTY100_LOW_VOLATILITY_30':'NIFTY100_LOW_VOLATILITY_30',
-#         'NIFTY_BANK':'NIFTY_BANK',
-#         'NIFTY_MIDCAP_LIQUID_15':'NIFTY_MIDCAP_LIQUID_15',
-#         'NIFTY_CPSE':'NIFTY_CPSE',
-#         'NIFTY_FINANCIAL_SERVICES':'NIFTY_FINANCIAL_SERVICES',
-#         'NIFTY_MIDSMALLCAP_400':'NIFTY_MIDSMALLCAP_400',
-#         'NIFTY_SMALLCAP_100':'NIFTY_SMALLCAP_100',
-#         'NIFTY_INDIA_DIGITAL':'NIFTY_INDIA_DIGITAL',
-#         'NIFTY_INFRASTRUCTURE':'NIFTY_INFRASTRUCTURE',
-#         'NIFTY_ALPHA_50':'NIFTY_ALPHA_50',
-#         'NIFTY_SERVICES_SECTOR':'NIFTY_SERVICES_SECTOR',
-#         'NIFTY_50':'NIFTY_50',
-#         'NIFTY_TOTAL_MARKET':'NIFTY_TOTAL_MARKET',
-#         'NIFTY_NEXT_50':'NIFTY_NEXT_50',
-#         'NIFTY_IT':'NIFTY_IT',
-#         'NIFTY500_MULTICAP_50_25_25':'NIFTY500_MULTICAP_50_25_25',
-#         'NIFTY_MEDIA':'NIFTY_MEDIA',
-#         'NIFTY_PRIVATE_BANK':'NIFTY_PRIVATE_BANK',
-#         'NIFTY_FINANCIAL_SERVICES_25_50':'NIFTY_FINANCIAL_SERVICES_25_50',
-#         'NIFTY_HEALTHCARE_INDEX':'NIFTY_HEALTHCARE_INDEX',
-#         'NIFTY_MIDCAP_100':'NIFTY_MIDCAP_100',
-#         'NIFTY200_MOMENTUM_30':'NIFTY200_MOMENTUM_30',
-#         'NIFTY_MIDCAP150_QUALITY_50':'NIFTY_MIDCAP150_QUALITY_50'
-#     }
-#     return group_code.get(group)
+def getStocksOldWay(group):
+    group_code = {
+        'NIFTY_AUTO':'NIFTY_AUTO',
+        'NIFTY_DIVIDEND_OPPORTUNITIES_50':'NIFTY_DIVIDEND_OPPORTUNITIES_50',
+        'NIFTY_PSE':'NIFTY_PSE',
+        'NIFTY_INDIA_MANUFACTURING':'NIFTY_INDIA_MANUFACTURING',
+        'NIFTY_GROWTH_SECTORS_15':'NIFTY_GROWTH_SECTORS_15',
+        'NIFTY100_LIQUID_15':'NIFTY100_LIQUID_15',
+        'NIFTY50_EQUAL_WEIGHT':'NIFTY50_EQUAL_WEIGHT',
+        'NIFTY_PSU_BANK':'NIFTY_PSU_BANK',
+        'NIFTY_OIL_AND_GAS':'NIFTY_OIL_AND_GAS',
+        'NIFTY_MIDCAP_50':'NIFTY_MIDCAP_50',
+        'NIFTY_ENERGY':'NIFTY_ENERGY',
+        'NIFTY_SMALLCAP_250':'NIFTY_SMALLCAP_250',
+        'NIFTY_SMALLCAP_50':'NIFTY_SMALLCAP_50',
+        'NIFTY_MICROCAP_250':'NIFTY_MICROCAP_250',
+        'NIFTY_METAL':'NIFTY_METAL',
+        'NIFTY100_QUALITY_30':'NIFTY100_QUALITY_30',
+        'NIFTY50_VALUE_20':'NIFTY50_VALUE_20',
+        'NIFTY_LARGEMIDCAP_250':'NIFTY_LARGEMIDCAP_250',
+        'NIFTY_MIDCAP_150':'NIFTY_MIDCAP_150',
+        'NIFTY_100':'NIFTY_100',
+        'NIFTY100_ESG':'NIFTY100_ESG',
+        'NIFTY_MIDCAP_SELECT':'NIFTY_MIDCAP_SELECT',
+        'NIFTY_PHARMA':'NIFTY_PHARMA',
+        'NIFTY_REALTY':'NIFTY_REALTY',
+        'NIFTY_200':'NIFTY_200',
+        'NIFTY100_LOW_VOLATILITY_30':'NIFTY100_LOW_VOLATILITY_30',
+        'NIFTY_BANK':'NIFTY_BANK',
+        'NIFTY_MIDCAP_LIQUID_15':'NIFTY_MIDCAP_LIQUID_15',
+        'NIFTY_CPSE':'NIFTY_CPSE',
+        'NIFTY_FINANCIAL_SERVICES':'NIFTY_FINANCIAL_SERVICES',
+        'NIFTY_MIDSMALLCAP_400':'NIFTY_MIDSMALLCAP_400',
+        'NIFTY_SMALLCAP_100':'NIFTY_SMALLCAP_100',
+        'NIFTY_INDIA_DIGITAL':'NIFTY_INDIA_DIGITAL',
+        'NIFTY_INFRASTRUCTURE':'NIFTY_INFRASTRUCTURE',
+        'NIFTY_ALPHA_50':'NIFTY_ALPHA_50',
+        'NIFTY_SERVICES_SECTOR':'NIFTY_SERVICES_SECTOR',
+        'NIFTY_50':'NIFTY_50',
+        'NIFTY_TOTAL_MARKET':'NIFTY_TOTAL_MARKET',
+        'NIFTY_NEXT_50':'NIFTY_NEXT_50',
+        'NIFTY_IT':'NIFTY_IT',
+        'NIFTY500_MULTICAP_50_25_25':'NIFTY500_MULTICAP_50_25_25',
+        'NIFTY_MEDIA':'NIFTY_MEDIA',
+        'NIFTY_PRIVATE_BANK':'NIFTY_PRIVATE_BANK',
+        'NIFTY_FINANCIAL_SERVICES_25_50':'NIFTY_FINANCIAL_SERVICES_25_50',
+        'NIFTY_HEALTHCARE_INDEX':'NIFTY_HEALTHCARE_INDEX',
+        'NIFTY_MIDCAP_100':'NIFTY_MIDCAP_100',
+        'NIFTY200_MOMENTUM_30':'NIFTY200_MOMENTUM_30',
+        'NIFTY_MIDCAP150_QUALITY_50':'NIFTY_MIDCAP150_QUALITY_50'
+    }
+    return group_code.get(group)
